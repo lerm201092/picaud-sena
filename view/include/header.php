@@ -12,13 +12,10 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-about"></i> Quienes Somos </a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="./grupo.php"><i class="fa fa-group"></i> Grupo De Trabajo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-phone"></i> Contáctanos</a>
+        <a class="nav-link" href="#"><i class="fa fa-phone"></i> Ayuda </a>
       </li> 
     </ul>
     <ul class="navbar-nav">

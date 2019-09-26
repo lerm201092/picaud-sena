@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PICAUD</title>
-    <!-- Importamos los css comunes y propiedades de la pagina -->
-    <?php include "./include/head.php"; ?>
-    <!-- css propoio de la pagina -->
-    <link rel="stylesheet" href="./src/css/pagina_contenido.css">
-</head >
+  <title>PICAUD</title>
+  <!-- Importamos los css comunes y propiedades de la pagina -->
+  <?php include "./include/head.php"; ?>
+  <!-- css propoio de la pagina -->
+  <link rel="stylesheet" href="./src/css/pagina_contenido.css">
+</head>
 <body>
-    <?php include "./include/preload.php";?>   
-    <!-- MENU -->
-    <?php include "./include/header-iniciado.php"; ?>
+  <?php include "./include/preload.php";?>   
+  <!-- MENU -->
+  <?php include "./include/header-iniciado.php"; ?>
 
-    <!-- INICIO - CONTENIDO DE LA PAGINA -->
+  <!-- INICIO - CONTENIDO DE LA PAGINA -->
+  <!-- <input type="hidden" id="idTema" value="<?php //echo $_GET['id'] ?>"> -->
+  <input type="hidden" id="idTema" value="2">
 
-
-    <div class="container" style="margin-top:30px">
+  <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-3">
       <h2>Que es una Discapacidad</h2>
@@ -52,12 +53,11 @@
     </div>
   </div>
 </div>
-     <!-- Footer -->
-     <?php include "include/footer.php"; ?>
-    <!-- Fin de footer -->
-
-    <!-- FIN - CONTENIDO DE LA PAGINA -->
-
-    <?php include "./include/scriptsComun.php"; ?>
+  <!-- Footer -->
+  <?php include "include/footer.php"; ?>
+  <!-- Fin de footer -->
+  <!-- FIN - CONTENIDO DE LA PAGINA -->
+  <?php include "./include/scriptsComun.php"; ?>
+  <script type="text/javascript" src="../assets/js/administrador/main_pagina1.js"></script>
 </body>
 </html>

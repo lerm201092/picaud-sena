@@ -1,8 +1,9 @@
 function login(){
+    console.log('si esta en la funcion');
     var username = $("#txt_user").val(), password = $("#txt_passw").val();
     if( (username.trim() != "" ) && ( password.trim() != "" )){
         $.ajax({
-            url: "../model/sesion/login2.php",
+            url: "../model/sesion/login.php",
             type: "POST",
             data: { "user": username, "passw": password },   
             success: function(resp)

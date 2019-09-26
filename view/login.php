@@ -44,8 +44,7 @@
                             </div>
                             <div class="form-group form-check">
                                 <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox">Recordar contraseña
-                                </label>
+                                <input class="form-check-input" type="checkbox">Recuperar contraseña</label>
                             </div>
                                 <a href ="#" style="background: #fc7323; color: #ffffff;" class="btn btn-basic" onclick="login()" >Login</a>
                             </form>
@@ -65,7 +64,7 @@
     <!-- FIN - CONTENIDO DE LA PAGINA -->
     <?php include "./include/scriptsComun.php"; ?>
 
-    <script src="../controller/login2.js"></script> 
+    <script src="../controller/login.js"></script> 
   
 </body>
 </html>

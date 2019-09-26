@@ -1,6 +1,6 @@
 <?php
     // Conexion a base de datos
-    require_once "./sesion/conexion.php";
+    require_once "../model/sesion/conexion.php";
     $conexion = conexion();
 
     // Recibir parametros
@@ -55,22 +55,26 @@
                         fecha_nac,
                         fecha_reg,
                         contrasena_1,
-                        estado)
-                    VALUES( '$tid',
-                            '$nid',
-                            '$nom',
-                            '$ape',
-                            '$tel',
-                            '$ema',
-                            '$sex',
-                            '$ciu',
-                            '$fna',
+                        contrasena_2,
+                        estado,
+                        rol)
+                    VALUES( $tid,
+                            '".$nid."',
+                            '".$nom."',
+                            '".$ape."',
+                            '".$tel."',
+                            '".$ema."',
+                            '".$sex."',
+                            '".$ciu."',
+                            '".$fna."',
                             SYSDATE(),
-                            '$con',
-                            '1')";
+                            '".$con."',
+                            0,
+                            1,
+                            1)";
             if (mysqli_query($conexion, $consulta)) {
                 $datos["ok"]["mensaje"] = "ok";
-             } else {
+            } else {
                 $mensaje = mysqli_error($conexion);
                 $array_aux = explode(" ", $mensaje);
                 $tipo = $array_aux[0];
@@ -82,10 +86,9 @@
                 $datos["error"]["tipo"] = $tipo;
                 $datos["error"]["consulta"] = $consulta;
                 $datos["error"]["mensaje"] = $mensaje;
-             }
-             
-             $json = json_encode( $datos, JSON_UNESCAPED_UNICODE );
-             echo ( $json ) ; 
+            }
+            $json = json_encode( $datos, JSON_UNESCAPED_UNICODE );
+            echo ( $json );
     }
     // FIN GUARDAR
 

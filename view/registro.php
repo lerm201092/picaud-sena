@@ -145,8 +145,6 @@
                                     <a href="#" class="btn btn-success" onclick="guardar()"><i class="fa fa-save"></i> Guardar</a>
                                 </div>
                     </div>
-              
-               
                 </div>
             </div>
         </div>  
