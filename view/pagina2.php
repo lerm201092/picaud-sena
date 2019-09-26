@@ -1,3 +1,5 @@
+<?php include "../model/sesion/seguridad.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

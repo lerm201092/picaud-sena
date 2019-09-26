@@ -22,7 +22,7 @@
             $datos["pagina"] = $pagina;
 
             session_start();
-            $_SESSION["id"]         = $user;
+            $_SESSION["picaud_id"]         = $user;
             $_SESSION["nombres"]     = $fila["nombres"];
             $_SESSION["apellidos"]  = $fila["apellidos"];
             $_SESSION["rol"]        = $rol;
