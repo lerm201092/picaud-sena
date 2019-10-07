@@ -17,7 +17,7 @@
         if(password_verify( $passw , $contrasena)){
             $rol = $fila["rol"];
             $datos["acceso"]="ok";            
-            if($rol == 2){ $pagina = "./pagina1.php"; }else{ $pagina = "../view/admin/index.php"; }
+            if($rol == 2){ $pagina = "./home.php"; }else{ $pagina = "../view/admin/home.php"; }
             $datos["rol"] = $rol;
             $datos["pagina"] = $pagina;
 

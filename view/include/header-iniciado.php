@@ -20,7 +20,7 @@
     </ul>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#"></i> <img src="./src/img/img_avatar.png" class="rounded-circle" style="height:50px; width:auto; padding:0;margin:0;"> </a>
+        <a class="nav-link" href="./../model/sesion/logout.php".></i> <img src="./src/img/img_avatar.png" class="rounded-circle" style="height:50px; width:auto; padding:0;margin:0;"> </a>
       </li> 
      
     </ul>

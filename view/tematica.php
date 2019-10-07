@@ -14,8 +14,8 @@
   <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-3">
-      <h2 id="IdTematica">Que es una Discapacidad</h2>
-      <div style="padding-bottom: 50px; width:100%;"> <img id="UrlIamge" src="./src/img/tematicas/<?php echo $_GET["id"]; ?>.png" /> </div>
+      <h2 id="IdTematica">Cargando Información ...</h2>
+      <div style="padding-bottom: 50px; width:100%;"> <img id="UrlImage" src="#" /> </div>
       <h3 >Seguimiento de los temas</h3>
 
       <ul class="nav nav-pills flex-column">
